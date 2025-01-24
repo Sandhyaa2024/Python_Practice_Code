@@ -39,5 +39,13 @@ print(removed_ele)
 print(l1)
 
 '''remove takes values as argument but pop takes index as argument
-pop returns removed value but remove will not return value'''
+pop returns removed value but remove will not return value
+del is keyword but pop() is finction'''
+
+#del keyword    -- takes index value
+del l1[1]
+print(l1)
+
+del l1  
+print(l1)  # give error because after deleteing the complete list there is nothing to print
 
